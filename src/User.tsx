@@ -11,7 +11,7 @@ const Info = {
   stack: [
     "Software Engineer",
     "Full Stack Developer",
-    "Competitive Programmer",
+    "Frontend Developer",
     "Freelancer",
     "Open Source Contributor",
   ],
