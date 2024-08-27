@@ -9,10 +9,10 @@ import {
 const Info = {
   name: "Chirag Gupta",
   stack: [
+    "Freelancer",
     "Software Engineer",
     "Full Stack Developer",
     "Frontend Developer",
-    "Freelancer",
     "Open Source Contributor",
   ],
   bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!",
@@ -20,11 +20,19 @@ const Info = {
 
 const ProjectInfo = [
   {
-    title: "Ekart E-comm App",
-    desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
+    title: "Digiwhistle - Influencer Management ERP",
+    desc: "Digiwhistle is a modern, fully responsive Influencer Management ERP platform built using NextJS, TailwindCSS, Redux Toolkit, React hook forms and ShadCN UI, offering a seamless influencer, campaign as well as employee management across all devices. It features secure user authentication by utilizing NextJs middleware, cookies & redux toolkit. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
     image: "Ekart.png",
     live: true,
-    technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
+    technologies: [
+      "React",
+      "NextJs",
+      "Tailwind",
+      "Redux Toolkit",
+      "ShadCN",
+      "Tanstack Table",
+      "React hook forms",
+    ],
     link: "https://code-mars.github.io/Ekart/",
     github: "https://github.com/Code-Mars/Ekart/",
   },
@@ -194,7 +202,7 @@ const ExperienceInfo = [
     desc: [
       "Developed analytics dashboards for bot performance at various hierarchy levels and created a global filter component & hook",
       "Built REST API endpoints for Automation Bot data analytics and insights.",
-      "Developed an end-to-end LinkedIn Automation microservice using Python FastAPI framework, MongoDB, and relevant libraries",
+      // "Developed an end-to-end LinkedIn Automation microservice using Python FastAPI framework, MongoDB, and relevant libraries",
     ],
     skills: [
       "Next JS",
@@ -215,7 +223,7 @@ const ExperienceInfo = [
     date: "Sept 2022 - Feb 2023",
     desc: [
       "Developed a dynamic, user-friendly & mobile-responsive Finlight community webpage, which garnered over 2000+ members on launch day",
-      " Designed and implemented the coupon system in the admin panel, connecting it with frontend using REST APIs",
+      "Designed and implemented the coupon system in the admin panel, connecting it with frontend using REST APIs",
     ],
     skills: [
       "React.js",
