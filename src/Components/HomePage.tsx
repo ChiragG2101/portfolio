@@ -29,9 +29,9 @@ const HomePage = () => {
           <Toaster />
           <Header />
           <About />
-          <Projects />
           <Skills />
           <Experience />
+          <Projects />
           <Contact />
           <Footer />
           <Mail />

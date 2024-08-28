@@ -45,12 +45,12 @@ const ProjectCard = (props: any) => {
         </Card.Section>
 
         <Group justify="space-between" mt="xs" mb="xs">
-          <div className="!text-2xl gap-2 !font-bold !text-white flex items-center sm-mx:!text-xl">
-            {props.title}
+          <div className="!text-2xl w-full gap-2 !font-bold !text-white flex items-center justify-between sm-mx:!text-xl">
+            <p>{props.title}</p>
             {props.live === true && (
               <div>
                 <Badge
-                  className="!px-1 "
+                  className="!px-1.5 "
                   variant="outline"
                   color="red"
                   rightSection={

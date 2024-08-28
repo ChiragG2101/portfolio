@@ -34,7 +34,7 @@ const Contact = () => {
     setFormError(newFormError);
     if (valid) {
       setFormData(form);
-      toast.success("Submitted Successfully!", { duration: 4000 });
+      toast.success("Thanks for connecting!", { duration: 4000 });
       await addDoc(collection(db, "portfolio"), formData);
     } else {
       toast.error("Validation error occurred!", { duration: 4000 });

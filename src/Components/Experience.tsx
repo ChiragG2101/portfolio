@@ -79,7 +79,7 @@ const Experience = () => {
       id="Experience"
     >
       <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl  mb-10 font-bold text-center text-white">
-        <span className="text-primaryColor">04.&nbsp;</span>Experience
+        <span className="text-primaryColor">03.&nbsp;</span>Experience
       </h1>
       <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
         {TimelineItem(ExperienceInfo)}
