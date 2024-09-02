@@ -15,7 +15,7 @@ const Info = {
     "Frontend Developer",
     "Open Source Contributor",
   ],
-  bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!",
+  bio: "I'm a GET THINGS DONE Full Stack Developer with 2 years of experience in React, Next.js, Node.js, and Python. Skilled in building scalable web applications, optimizing performance, and implementing secure systems. Experienced in delivering impactful projects in fast-paced environments.",
 };
 
 const ProjectInfo = [
