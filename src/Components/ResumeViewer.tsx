@@ -42,9 +42,9 @@ const ResumeViewer = (props: any) => {
               <ActionIcon
                 className="!text-primaryColor"
                 component="a"
-                href="chirag_chiragg593_gmail_com_resume.pdf"
+                href="chiragg593_gmail_com_10xdev_2_yr_exp_resume.pdf"
                 size={btn}
-                download={Info.name}
+                download={Info.resume_name}
                 variant="outline"
                 color="#64FFDA"
               >
@@ -61,7 +61,7 @@ const ResumeViewer = (props: any) => {
         <Modal.Body className="!bg-bgColor xs-mx:!p-2 !pt-2 !border-primaryColor  !border-2 xs-mx:!border xs-mx:!border-t-0 !border-t-0 !rounded-bl-3xl !rounded-br-3xl ">
           <Document
             className="w-full !rounded-2xl !overflow-hidden !min-w-40 !min-h-14"
-            file="chirag_chiragg593_gmail_com_resume.pdf"
+            file="chiragg593_gmail_com_10xdev_2_yr_exp_resume.pdf"
           >
             <Page
               className="w-full !min-w-40 !min-h-14 md-mx:[&>.react-pdf\_\_Page\_\_canvas]:!w-full md-mx:[&>.react-pdf\_\_Page\_\_canvas]:!h-auto"
