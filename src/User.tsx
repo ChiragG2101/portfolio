@@ -206,10 +206,37 @@ const socialLinks = [
 
 const ExperienceInfo = [
   {
+    role: "SDE - Founding Engineer",
+    company: "Tortoise",
+    image: "tortoise.svg",
+    date: "Oct 2024 - Present · Gurgaon, India",
+    desc: [
+      "Rebuilt the end-to-end AI-powered product cataloging pipeline automating scraping, variant extraction, compatible product mappings, and a device recommendation engine.",
+      "Solo-built the internal CX & KAM Support Dashboard, eliminating a recurring class of engineering escalations and significantly cutting query resolution time for customer-facing teams.",
+      "Designed a multi-source data import system that syncs external data into the core DB and auto-triggers downstream business workflows, replacing a manual error-prone process.",
+      "Owned the workflow execution engine handling full lifecycle management, state transitions, and reliable execution across diverse business processes.",
+      "Carried consolidation of 4 dashboards into a monorepo (Turborepo + GitHub Actions CI/CD) and migrated legacy React/Redux codebases to Next.js, cutting deployment overhead significantly.",
+      "Built Tortoise's UI Design System from scratch using Atomic Design principles enforcing UI consistency and reducing per-feature development time across all dashboards.",
+    ],
+    skills: [
+      "Django REST",
+      "Redis",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Turborepo",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Python",
+      "GitHub Actions",
+      "Design Systems",
+    ],
+  },
+  {
     role: "Software Developer - Founder's Office",
     company: "Adaapt AI (formerly Terobots )",
     image: "adaapt.png",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - Oct 2024",
     desc: [
       "Developed an AI-powered MongoDB query generator microservice, leveraging client metadata to gather and analyze data.",
       "mplemented a comprehensive authentication and role management module using Higher-Order Components, Next.js middleware, cookies, and Redux Toolkit.",
