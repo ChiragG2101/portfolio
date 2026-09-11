@@ -7,7 +7,7 @@ interface MousePosition {
   y: number;
 }
 
-function MousePosition(): MousePosition {
+function useMousePosition(): MousePosition {
   const [mousePosition, setMousePosition] = useState<MousePosition>({
     x: 0,
     y: 0,
@@ -63,7 +63,7 @@ const Particles: React.FC<ParticlesProps> = ({
   const canvasContainerRef = useRef<HTMLDivElement>(null);
   const context = useRef<CanvasRenderingContext2D | null>(null);
   const circles = useRef<any[]>([]);
-  const mousePosition = MousePosition();
+  const mousePosition = useMousePosition();
   const mouse = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
   const canvasSize = useRef<{ w: number; h: number }>({ w: 0, h: 0 });
   const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
@@ -79,14 +79,17 @@ const Particles: React.FC<ParticlesProps> = ({
     return () => {
       window.removeEventListener("resize", initCanvas);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [color]);
 
   useEffect(() => {
     onMouseMove();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mousePosition.x, mousePosition.y]);
 
   useEffect(() => {
     initCanvas();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [refresh]);
 
   const initCanvas = () => {
