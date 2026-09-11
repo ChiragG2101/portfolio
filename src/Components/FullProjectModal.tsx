@@ -88,7 +88,7 @@ const FullProjectModal = (props: any) => {
           <Group justify="space-between" mt="md" mb={3}>
             <a
               href={props.github}
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="!w-[48%] sm-mx:!w-[46%]"
             >
               <Button
@@ -101,7 +101,7 @@ const FullProjectModal = (props: any) => {
                 View Code
               </Button>
             </a>
-            <a href={props.link} target="_blank" className="!w-[48%] ">
+            <a href={props.link} target="_blank" rel="noreferrer" className="!w-[48%] ">
               <Button
                 size={btn}
                 color="#64FFDA"

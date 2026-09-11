@@ -1,10 +1,6 @@
-import { Text, Timeline, useMatches } from "@mantine/core";
+import { Timeline, useMatches } from "@mantine/core";
 import {
   IconBriefcaseFilled,
-  IconGitBranch,
-  IconGitCommit,
-  IconGitPullRequest,
-  IconMessageDots,
 } from "@tabler/icons-react";
 import { ExperienceInfo } from "../User";
 

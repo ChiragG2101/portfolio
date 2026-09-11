@@ -6,7 +6,7 @@ const Social = () => {
       <a
         key={index}
         href={`${socialLink.link}`}
-        target="_blank"
+        target="_blank" rel="noreferrer"
         className="font-mono text-lg  hover:text-primaryColor hover:-translate-x-1 transition transform duration-300 ease-in-out"
       >
         <div data-aos="fade-up-left" data-aos-duration="800">
