@@ -1,10 +1,8 @@
 import {
   IconBrandGithub,
   IconBrandInstagram,
-  IconBrandLeetcode,
   IconBrandLinkedin,
   IconBrandTwitter,
-  IconBrandYoutube,
 } from "@tabler/icons-react";
 const Info = {
   name: "Chirag Gupta",
