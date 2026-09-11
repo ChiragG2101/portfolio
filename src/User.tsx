@@ -9,13 +9,13 @@ import {
 const Info = {
   name: "Chirag Gupta",
   stack: [
-    "Freelancer",
+    "Full-Stack Product Engineer",
     "Software Engineer",
     "Full Stack Developer",
     "Frontend Developer",
     "Open Source Contributor",
   ],
-  bio: "I'm a GET THINGS DONE Full Stack Developer with 2 years of experience in React, Next.js, Node.js, and Python. Skilled in building scalable web applications, optimizing performance, and implementing secure systems. Experienced in delivering impactful projects in fast-paced environments.",
+  bio: "I'm a GET THINGS DONE Full Stack Developer with 3 years of experience in React, Next.js, Node.js, and Python. Skilled in building scalable web applications, optimizing performance, and implementing secure systems. Experienced in delivering impactful projects in fast-paced environments.",
   resume_name: "chiragg593_gmail_com_10xdev_2_yr_exp_resume.pdf",
 };
 
