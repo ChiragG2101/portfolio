@@ -17,11 +17,6 @@ const ProjectCard = (props: any) => {
     md: "md",
     lg: "lg",
   });
-  const btn = useMatches({
-    xs: "xs",
-    sm: "sm",
-    md: "md",
-  });
   return (
     <div
       className="w-[32%] lg-mx:w-[46%] md-mx:w-[48%] sm-mx:w-[90%] xs-mx:w-full mb-5"
