@@ -12,7 +12,6 @@ export const profile = {
     github: "https://github.com/ChiragG2101",
     linkedin: "https://www.linkedin.com/in/chirag-gupta-2101/",
     x: "https://x.com/Chirag_2101",
-    resume: "/Chirag-Gupta-Resume.pdf",
   },
 };
 
@@ -98,7 +97,7 @@ export function machineView(): string {
   l.push(`# ${profile.name}`, `${profile.title} | ${profile.location} | ${profile.remote}`, "");
   l.push(profile.positioning, profile.summary, "");
   l.push("## Links");
-  l.push(`- Email: ${profile.email}`, `- GitHub: ${profile.links.github}`, `- LinkedIn: ${profile.links.linkedin}`, `- Resume: ${profile.links.resume}`, "");
+  l.push(`- Email: ${profile.email}`, `- GitHub: ${profile.links.github}`, `- LinkedIn: ${profile.links.linkedin}`, "");
   l.push("## Experience");
   experience.forEach((j) => {
     l.push(`### ${j.role}, ${j.company} (${j.dates})`);
