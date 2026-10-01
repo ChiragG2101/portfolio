@@ -5,7 +5,7 @@ import { profile, experience, projects, skills, machineView } from "./content";
 export const render = () => renderToString(<App />);
 
 export const llmsTxt = () =>
-  `# ${profile.name}\n\n> ${profile.title}. ${profile.positioning}\n\n${profile.summary}\n\n## Pages\n- [Home](/): full site, no JavaScript needed\n- [Resume JSON](/resume.json): structured resume\n- [Resume PDF](${profile.links.resume})\n- [AGENTS.md](/AGENTS.md)\n\n## Contact\n- ${profile.email}\n- ${profile.links.github}\n- ${profile.links.linkedin}\n\n## Full text\n\n${machineView()}\n`;
+  `# ${profile.name}\n\n> ${profile.title}. ${profile.positioning}\n\n${profile.summary}\n\n## Pages\n- [Home](/): full site, no JavaScript needed\n- [Resume JSON](/resume.json): structured resume\n- [AGENTS.md](/AGENTS.md)\n\n## Contact\n- ${profile.email}\n- ${profile.links.github}\n- ${profile.links.linkedin}\n\n## Full text\n\n${machineView()}\n`;
 
 export const resumeJson = () =>
   JSON.stringify(
