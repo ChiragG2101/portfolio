@@ -1,0 +1,3 @@
+{ "short_name": "Chirag", "name": "Chirag Gupta",
+  "icons": [{"src":"favicon.svg","type":"image/svg+xml","sizes":"any"}],
+  "start_url": ".", "display": "standalone", "theme_color": "#0b0d10", "background_color": "#0b0d10" }
