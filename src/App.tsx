@@ -70,7 +70,6 @@ export default function App() {
             <p className="sub">{profile.summary}</p>
             <p className="cta">
               <a className="btn" href={`mailto:${profile.email}`}>Email me</a>
-              <a className="btn ghost" href={profile.links.resume}>Resume (PDF)</a>
               <a className="link" href={profile.links.github}>GitHub</a>
               <a className="link" href={profile.links.linkedin}>LinkedIn</a>
             </p>
